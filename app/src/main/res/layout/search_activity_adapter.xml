@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lnr_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_search_card_shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_label_one"
+                    style="@style/survey_style_label_tv"/>
+
+                <TextView
+                    style="@style/survey_style_col_tv"
+                    android:text=":" />
+
+                <TextView
+                    android:id="@+id/tv_value_one"
+                    style="@style/survey_style_val_tv"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_label_two"
+                    style="@style/survey_style_label_tv"/>
+
+                <TextView
+                    style="@style/survey_style_col_tv"
+                    android:text=":" />
+
+                <TextView
+                    android:id="@+id/tv_value_two"
+                    style="@style/survey_style_val_tv"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_label_three"
+                    style="@style/survey_style_label_tv"/>
+
+                <TextView
+                    style="@style/survey_style_col_tv"
+                    android:text=":" />
+
+                <TextView
+                    android:id="@+id/tv_value_three"
+                    style="@style/survey_style_val_tv"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_label_four"
+                    style="@style/survey_style_label_tv"/>
+
+                <TextView
+                    style="@style/survey_style_col_tv"
+                    android:text=":" />
+
+                <TextView
+                    android:id="@+id/tv_value_four"
+                    style="@style/survey_style_val_tv"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_label_five"
+                    style="@style/survey_style_label_tv"/>
+
+                <TextView
+                    style="@style/survey_style_col_tv"
+                    android:text=":" />
+
+                <TextView
+                    android:id="@+id/tv_value_five"
+                    style="@style/survey_style_val_tv"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:layout_weight=".5"/>
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_weight=".5"
+                android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
